@@ -10,17 +10,13 @@
 
 int main(void)
 {
-int n = 0;
-while (n <= 9)
+int n = 48;
+while (n <= 102)
 {
-putchar(n + '0');
+putchar(n);
+if (n == 57)
+n += 39;
 n++;
-}
-char ch = 'a';
-while (ch < 'g')
-{
-putchar(ch);
-ch++;
 }
 putchar('\n');
 return (0);
