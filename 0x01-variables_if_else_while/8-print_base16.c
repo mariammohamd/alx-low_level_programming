@@ -16,8 +16,8 @@ while (n <= 9)
 putchar(n + '0');
 n++;
 }
-char ch = 'A';
-while (ch < 'G')
+char ch = 'a';
+while (ch < 'g')
 {
 putchar(ch);
 ch++;
