@@ -3,15 +3,16 @@
 /**
  * print_line -  draws a straight line in the terminal.
  *
- *  @n: input
+ * @n: input
  *
 */
 
 void print_line(int n)
 {
-for (int a = 0; a <= n; a++)
+int a;
+for (a = 0; a < n; a++)
 {
-putchar('_');
+_putchar('_');
 }
-putchar('\n');
+_putchar('\n');
 }
